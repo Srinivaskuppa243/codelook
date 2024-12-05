@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Assesment</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image" href="./images/edit-code.png">
+</head>
+<body class="bg-gray-100">
+    <div class="flex flex-wrap min-h-screen">
+        <!-- Left Panel -->
+        <div class="sm:w-full md:w-1/2 lg:w-1/2 bg-gray-100 p-6">
+            <h2 class="text-xl font-bold mb-4">Question 1</h2>
+            <p class="text-gray-700 mb-6">Write a function to reverse a string. Follow the constraints: </p>
+            <strong>Constraints:</strong>
+            <ol class="text-gray-700 mb-3 list-decimal pl-6">
+                <li>No Use of Built-in Reverse Methods</li>
+                <li>The time complexity should be O(n), where n is the length of the string.</li>
+                <li>The input string is guaranteed to be non-null and its length will be between 1 and 10^5.</li>
+            </ol>
+            <br>
+            <strong>Sample Testcase:</strong>
+            <pre class="bg-gray-200 p-4 rounded-lg mb-4">
+                Input: "hello"
+                Output: "olleh"
+                
+                Input:"world"
+                Output:"dlrow"
+            </pre>
+          
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-500">
+                <a href="coding_assessment_2.html">Next</a>
+            </button>
+            
+        </div>
+
+        <div class="sm:w-full md:w-1/2 lg:w-1/2 bg-white p-6">
+            <div class="flex justify-between items-center mb-4">
+                <select class="border rounded px-3 py-2">
+                    <option>Python</option>
+                    <option>JavaScript</option>
+                    <option>C++</option>
+                    <option>C</option>
+                    <option>Java</option>
+                </select>  
+            </div>
+            <textarea class="w-full h-64 border rounded-lg p-4 font-mono text-white bg-black" placeholder="Write your code here..."></textarea>
+            <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 m-4 "> ▶︎ Run Code</button>
+            <textarea class="w-full h-64 border rounded-lg p-4 font-mono text-white bg-gray-500" placeholder="Write your code here..."></textarea>
+            
+        </div>
+    </div>
+</body>
+</html>
